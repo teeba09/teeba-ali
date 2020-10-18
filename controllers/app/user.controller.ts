@@ -78,7 +78,7 @@ export default class UserController {
     if (!user) return errRes(res,` Phone ${req.body.phone} dose not exist, REISTER`);
 
     if (user.complete == false){
-      return errRes(res," f off")
+      return errRes(res," go register ")
 
     }
 
